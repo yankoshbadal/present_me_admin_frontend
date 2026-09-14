@@ -32,7 +32,7 @@ const appRouter = createBrowserRouter([
    {
     path: "/",
     element: <IntroPage />,
-    errorElement: <ErrorPage />,
+    //errorElement: <ErrorPage />,
   },
   {
     path: "/privacy-policy",

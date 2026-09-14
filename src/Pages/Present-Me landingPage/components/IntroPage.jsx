@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import DevelopmentBanner from "./components/DevelopmentBanner";
-import ScrollProgress from "./components/ScrollProgress";
-import BackgroundOrbs from "./components/BackgroundOrbs";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import HowItWorks from "./components/HowItWorks";
-import Features from "./components/Features";
-import UsersSection from "./components/UsersSection";
-import BenefitsSection from "./components/BenefitsSection";
-import CTASection from "./components/CTASection";
-import Footer from "./components/Footer";
+import DevelopmentBanner from "../components/landing/DevelopmentBanner";
+import ScrollProgress from "../components/landing/ScrollProgress";
+import BackgroundOrbs from "../components/landing/BackgroundOrbs";
+import Navbar from "../components/landing/Navbar";
+import HeroSection from "../components/landing/HeroSection";
+import HowItWorks from "../components/landing/HowItWorks";
+import Features from "../components/landing/Features";
+import UsersSection from "../components/landing/UsersSection";
+import BenefitsSection from "../components/landing/BenefitsSection";
+import CTASection from "../components/landing/CTASection";
+import Footer from "../components/landing/Footer";
 
 const IntroPage = () => {
   const navigate = useNavigate();
